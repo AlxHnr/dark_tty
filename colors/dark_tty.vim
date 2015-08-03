@@ -42,7 +42,7 @@ highlight DiffText               cterm=bold ctermbg=6    ctermfg=7
 highlight Error                  cterm=bold ctermbg=none ctermfg=1
 highlight ErrorMsg               cterm=none ctermbg=none ctermfg=none
 highlight FoldColumn             cterm=bold ctermbg=7    ctermfg=4
-highlight Folded                 cterm=bold ctermbg=7    ctermfg=4
+highlight Folded                 cterm=bold ctermbg=0    ctermfg=4
 highlight Function               cterm=bold ctermbg=none ctermfg=4
 highlight GentooChangeLogDelFile cterm=none ctermbg=1    ctermfg=7
 highlight Identifier             cterm=none ctermbg=none ctermfg=5
