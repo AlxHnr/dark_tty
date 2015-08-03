@@ -70,6 +70,9 @@ highlight StatusLine             cterm=none ctermbg=7    ctermfg=0
 highlight String                 cterm=none ctermbg=none ctermfg=2
 highlight SyntasticErrorSign     cterm=none ctermbg=7    ctermfg=1
 highlight SyntasticWarningSign   cterm=bold ctermbg=7    ctermfg=3
+highlight SignifySignAdd         cterm=bold ctermbg=2    ctermfg=7
+highlight SignifySignChange      cterm=bold ctermbg=3    ctermfg=7
+highlight SignifySignDelete      cterm=bold ctermbg=1    ctermfg=7
 highlight TabLine                cterm=bold ctermbg=7    ctermfg=0
 highlight TabLineSel             cterm=none ctermbg=7    ctermfg=0
 highlight Title                  cterm=none ctermbg=none ctermfg=none
@@ -114,3 +117,5 @@ highlight! link Todo         SpecialComment
 highlight! link Type         Identifier
 highlight! link Typedef      Identifier
 highlight! link VisualNOS    Visual
+highlight! link diffAdded    String
+highlight! link diffRemoved  Number
