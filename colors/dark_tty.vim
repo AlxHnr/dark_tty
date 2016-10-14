@@ -80,6 +80,7 @@ highlight Underlined             cterm=bold ctermbg=none ctermfg=6
 highlight VertSplit              cterm=none ctermbg=7    ctermfg=7
 highlight Visual                 cterm=bold ctermbg=7    ctermfg=7
 highlight WarningMsg             cterm=none ctermbg=none ctermfg=none
+highlight WildMenu               cterm=none ctermbg=3    ctermfg=0
 
 highlight! link Boolean      Constant
 highlight! link Conditional  Function
